@@ -11,8 +11,8 @@ int main()
   std::cout << "enter a number";
   std::cin >> num2;
   
- int output = num2 - num1; 
-  std::cout << " subracting your numbers gives " << output;
+ int output = num2 * num1; 
+  std::cout << " times your numbers gives " << output;
  
  
 }
