@@ -3,16 +3,25 @@
 
 int main()
 {
-
-  int num1 = 0;
+    int num1 = 0;
   int num2 = 0;
   std::cout << "enter a number"; 
   std::cin >> num1; 
   std::cout << "enter a number";
   std::cin >> num2;
   
- int output = num2%num1; 
-  std::cout << " modulus of your numbers gives " << output;
+   int output = num2 + num1; 
+  std::cout << " adding your numbers gives " << output;
+
+    output = num2 - num1; 
+  std::cout << " subracting your numbers gives " << output;
+  
+  output = num2 * num1; 
+  std::cout << " times your numbers gives " << output;
+
+  output = num2 / num1; 
+ std::cout << " divide your numbers gives " << output;
  
- 
+  output = num2 % num1; 
+ std::cout << " modulus of your numbers gives " << output;
 }
