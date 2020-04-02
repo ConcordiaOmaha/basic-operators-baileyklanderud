@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 
@@ -12,8 +11,8 @@ int main()
   std::cout << "enter a number";
   std::cin >> num2;
   
- int output = num2/num1; 
-  std::cout << " divide your numbers gives " << output;
+ int output = num2%num1; 
+  std::cout << " modulus of your numbers gives " << output;
  
  
 }
